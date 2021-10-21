@@ -2554,7 +2554,6 @@
         "y": 100,
         "wires": [
             [
-                "a91d522b.9a077",
                 "9ac096c391a2edc8"
             ]
         ]
@@ -2625,8 +2624,7 @@
         "y": 540,
         "wires": [
             [
-                "7f5f08e413e9129f",
-                "a91d522b.9a077"
+                "7f5f08e413e9129f"
             ]
         ]
     },
@@ -3088,13 +3086,13 @@
         "type": "file in",
         "z": "c677fb256e5bfc68",
         "name": "",
-        "filename": "/home/lgyenge/datalog/jpgin/sample.jpg",
+        "filename": "/data/gylfiles/sample.jpg",
         "format": "",
         "chunk": false,
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 760,
+        "x": 710,
         "y": 540,
         "wires": [
             [
@@ -3127,12 +3125,12 @@
         "type": "file",
         "z": "c677fb256e5bfc68",
         "name": "",
-        "filename": "/home/lgyenge/datalog/pdf-files/test.pdf",
+        "filename": "/data/gylfiles/test.pdf",
         "appendNewline": false,
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1060,
+        "x": 1000,
         "y": 600,
         "wires": [
             []
@@ -3222,12 +3220,12 @@
         "type": "file",
         "z": "c677fb256e5bfc68",
         "name": "",
-        "filename": "/home/lgyenge/datalog/pdf-files/test-simple.pdf",
+        "filename": "/data/gylfiles/test-simple.pdf",
         "appendNewline": true,
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 860,
+        "x": 800,
         "y": 220,
         "wires": [
             []
@@ -3285,12 +3283,12 @@
         "type": "file",
         "z": "c677fb256e5bfc68",
         "name": "",
-        "filename": "/home/lgyenge/datalog/pdf-files/gyltemplate.pdf",
+        "filename": "/data/gylfiles/gyltemplate.pdf",
         "appendNewline": true,
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1250,
+        "x": 1190,
         "y": 740,
         "wires": [
             []
