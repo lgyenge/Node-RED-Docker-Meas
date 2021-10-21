@@ -1,1 +1,3508 @@
-[{"id":"3af82246.3634ae","type":"tab","label":"Flow 1","disabled":false,"info":""}]
+[
+    {
+        "id": "3af82246.3634ae",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "1211e9cdb9697bd6",
+        "type": "tab",
+        "label": "alf-Ticket",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "20b112dd1c771921",
+        "type": "tab",
+        "label": "alf-get my node",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "50936a92a92ad15a",
+        "type": "tab",
+        "label": "alf-create node",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "0eed9e493b6eff46",
+        "type": "tab",
+        "label": "alf-update node",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c6c601b02993af2c",
+        "type": "tab",
+        "label": "Auto logger",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "21701d5152061e2e",
+        "type": "tab",
+        "label": "Dashboard",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "669243c727fa687e",
+        "type": "tab",
+        "label": "measurement",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "fe3bbe1c28145180",
+        "type": "tab",
+        "label": "InfluxDB test",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4b97dc3d0f5571e7",
+        "type": "tab",
+        "label": "Influxdb test2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c164c577a56d4f5a",
+        "type": "tab",
+        "label": "chart-image-test",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c677fb256e5bfc68",
+        "type": "tab",
+        "label": "pdfmake test",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "89ea437f141856c5",
+        "type": "tab",
+        "label": "pdfmake test-orig",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "132699a6791983a0",
+        "type": "ui_group",
+        "name": "Control",
+        "tab": "78972c3dea8cc44c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bfc63ece338e411c",
+        "type": "ui_tab",
+        "name": "Mérés",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d2387a7522a1d707",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "BBraun",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4c8deb5f0f854ab8",
+        "type": "ui_group",
+        "name": "Display",
+        "tab": "bfc63ece338e411c",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "e5a1186e1494cab3",
+        "type": "mqtt-broker",
+        "name": "Measurement system",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "50e67679ded542be",
+        "type": "ui_group",
+        "name": "Raktár",
+        "tab": "bfc63ece338e411c",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": true
+    },
+    {
+        "id": "40882a3e4ad21d6a",
+        "type": "ui_group",
+        "name": "Hűtő",
+        "tab": "bfc63ece338e411c",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": true
+    },
+    {
+        "id": "78972c3dea8cc44c",
+        "type": "ui_tab",
+        "name": "Beállítás",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a3a4459a0dbb3fb0",
+        "type": "ui_group",
+        "name": "Külső",
+        "tab": "bfc63ece338e411c",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d50d0c9f.31e858",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "2be7c8fd.d795c8",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "catchpoint",
+        "name": "INFLUX server",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": false
+    },
+    {
+        "id": "5d7e54ca.019d44",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "",
+        "usetls": false,
+        "tls": "d50d0c9f.31e858",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": false
+    },
+    {
+        "id": "81af5dd3c0c4243e",
+        "type": "inject",
+        "z": "1211e9cdb9697bd6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 350,
+        "y": 480,
+        "wires": [
+            [
+                "b417215c911f3fc9",
+                "e7cedc88331b63ee"
+            ]
+        ]
+    },
+    {
+        "id": "147cc9e68b0114b4",
+        "type": "debug",
+        "z": "1211e9cdb9697bd6",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b417215c911f3fc9",
+        "type": "function",
+        "z": "1211e9cdb9697bd6",
+        "name": "",
+        "func": "// Create a Date object from the payload\nvar date = new Date(msg.payload);\n// Change the payload to be a formatted Date string\nmsg.payload = date.toString();\n// Return the message so it can be sent on\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 600,
+        "wires": [
+            [
+                "147cc9e68b0114b4"
+            ]
+        ]
+    },
+    {
+        "id": "e94b7b6c16a509e1",
+        "type": "http request",
+        "z": "1211e9cdb9697bd6",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8080/alfresco/api/-default-/public/authentication/versions/1/tickets",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "basic",
+        "x": 590,
+        "y": 740,
+        "wires": [
+            [
+                "4da433cb14ae0386"
+            ]
+        ]
+    },
+    {
+        "id": "4da433cb14ae0386",
+        "type": "debug",
+        "z": "1211e9cdb9697bd6",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "e7cedc88331b63ee",
+        "type": "function",
+        "z": "1211e9cdb9697bd6",
+        "name": "set payload and header",
+        "func": "msg.payload = {\"userId\":\"admin\",\"password\":\"admin57GL\"};\nmsg.headers = {};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 700,
+        "wires": [
+            [
+                "e94b7b6c16a509e1"
+            ]
+        ]
+    },
+    {
+        "id": "a03e8de3e77536e2",
+        "type": "inject",
+        "z": "20b112dd1c771921",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "e68254a192c0ad1e"
+            ]
+        ]
+    },
+    {
+        "id": "e68254a192c0ad1e",
+        "type": "function",
+        "z": "20b112dd1c771921",
+        "name": "",
+        "func": "//msg.payload = {\"userId\":\"admin\",\"password\":\"admin57GL\"};\n//msg.headers = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "5f8fa01238879e08"
+            ]
+        ]
+    },
+    {
+        "id": "5f8fa01238879e08",
+        "type": "http request",
+        "z": "20b112dd1c771921",
+        "name": "valami",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8080/alfresco/api/-default-/public/alfresco/versions/1/nodes/-my-/children",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "basic",
+        "x": 680,
+        "y": 260,
+        "wires": [
+            [
+                "f98b50751004e071"
+            ]
+        ]
+    },
+    {
+        "id": "f98b50751004e071",
+        "type": "debug",
+        "z": "20b112dd1c771921",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "44298bd726d78c06",
+        "type": "inject",
+        "z": "50936a92a92ad15a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 240,
+        "wires": [
+            [
+                "2cb10eb4f12cb803"
+            ]
+        ]
+    },
+    {
+        "id": "2cb10eb4f12cb803",
+        "type": "function",
+        "z": "50936a92a92ad15a",
+        "name": "",
+        "func": "var name = \"abcde\"\nmsg.payload = {\"name\":name,\"nodeType\":\"cm:content\"};\n//msg.headers = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 300,
+        "wires": [
+            [
+                "b46aead0b1cb41c8"
+            ]
+        ]
+    },
+    {
+        "id": "b46aead0b1cb41c8",
+        "type": "http request",
+        "z": "50936a92a92ad15a",
+        "name": "valami",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8080/alfresco/api/-default-/public/alfresco/versions/1/nodes/-my-/children",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "basic",
+        "x": 770,
+        "y": 320,
+        "wires": [
+            [
+                "4c16d1eb876d4dd9"
+            ]
+        ]
+    },
+    {
+        "id": "4c16d1eb876d4dd9",
+        "type": "debug",
+        "z": "50936a92a92ad15a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1170,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "37170787d1b40ab0",
+        "type": "inject",
+        "z": "0eed9e493b6eff46",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 180,
+        "wires": [
+            [
+                "121bf4cf607c788b"
+            ]
+        ]
+    },
+    {
+        "id": "121bf4cf607c788b",
+        "type": "function",
+        "z": "0eed9e493b6eff46",
+        "name": "",
+        "func": "//msg.payload = {\"contentBodyUpdate\":\"ez a file új tartalma\"};\nmsg.payload = \"ez a file új tartalma\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "44a9f6770a16be75"
+            ]
+        ]
+    },
+    {
+        "id": "44a9f6770a16be75",
+        "type": "http request",
+        "z": "0eed9e493b6eff46",
+        "name": "valami",
+        "method": "PUT",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8080/alfresco/api/-default-/public/alfresco/versions/1/nodes/eb549ba4-6ee0-4d77-aad0-3270dab5b6f7/content",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "basic",
+        "x": 690,
+        "y": 260,
+        "wires": [
+            [
+                "6f09b615a70b530f"
+            ]
+        ]
+    },
+    {
+        "id": "6f09b615a70b530f",
+        "type": "debug",
+        "z": "0eed9e493b6eff46",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "b990b588d5764e95",
+        "type": "ui_switch",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "132699a6791983a0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 210,
+        "y": 1280,
+        "wires": [
+            [
+                "15e855783dfb77e4",
+                "ac8bdb2f2a23794f"
+            ]
+        ]
+    },
+    {
+        "id": "15e855783dfb77e4",
+        "type": "ui_text_input",
+        "z": "21701d5152061e2e",
+        "name": "light switc",
+        "label": "light status",
+        "tooltip": "",
+        "group": "4c8deb5f0f854ab8",
+        "order": 2,
+        "width": 4,
+        "height": 3,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 400,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9751d41b47293df9",
+        "type": "ui_slider",
+        "z": "21701d5152061e2e",
+        "name": "main slide",
+        "label": "slider",
+        "tooltip": "",
+        "group": "132699a6791983a0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 220,
+        "y": 1180,
+        "wires": [
+            [
+                "ff6237512aec2dbf"
+            ]
+        ]
+    },
+    {
+        "id": "ff6237512aec2dbf",
+        "type": "ui_gauge",
+        "z": "21701d5152061e2e",
+        "name": "Műszer",
+        "group": "4c8deb5f0f854ab8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 520,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "ac8bdb2f2a23794f",
+        "type": "ui_toast",
+        "z": "21701d5152061e2e",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 390,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "21bb2999f78e1e2c",
+        "type": "mqtt in",
+        "z": "669243c727fa687e",
+        "name": "",
+        "topic": "snap/example",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e5a1186e1494cab3",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 340,
+        "y": 280,
+        "wires": [
+            [
+                "91f95a855fbcc682",
+                "c1faecabf016baf4",
+                "30e53fc7210d5c81",
+                "d2af21fb4b7f410f",
+                "55eefb53efb14bae",
+                "e93ce80820263a1c",
+                "372c949fdc6e013a",
+                "02278560c6e98dce"
+            ]
+        ]
+    },
+    {
+        "id": "bf53cb481a711f23",
+        "type": "debug",
+        "z": "669243c727fa687e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3165614221406042",
+        "type": "link out",
+        "z": "669243c727fa687e",
+        "name": "temperature_0",
+        "links": [
+            "ecd9aee344d3b362"
+        ],
+        "x": 895,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ecd9aee344d3b362",
+        "type": "link in",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "links": [
+            "3165614221406042"
+        ],
+        "x": 175,
+        "y": 140,
+        "wires": [
+            [
+                "8ea97f2b30110b18"
+            ]
+        ]
+    },
+    {
+        "id": "91f95a855fbcc682",
+        "type": "function",
+        "z": "669243c727fa687e",
+        "name": "T0 (raktár hőmérséklet hidegpont)",
+        "func": "//var meas = JSON.parse(msg.payload);\n//node.warn(meas);\nreturn { payload: JSON.parse(msg.payload).temperature_0 };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 380,
+        "wires": [
+            [
+                "3165614221406042",
+                "5adc46be668a5cc4"
+            ]
+        ],
+        "inputLabels": [
+            "meas "
+        ],
+        "outputLabels": [
+            "t0"
+        ]
+    },
+    {
+        "id": "2cf0410ae51433db",
+        "type": "link out",
+        "z": "669243c727fa687e",
+        "name": "temperature_1",
+        "links": [
+            "b18c5df5515add2a"
+        ],
+        "x": 895,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "7d600666f93ae2eb",
+        "type": "debug",
+        "z": "669243c727fa687e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8ea97f2b30110b18",
+        "type": "ui_chart",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "group": "50e67679ded542be",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "Raktár hőmérséklet (hidegpont)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "Új érték",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "30",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#ffffff",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 430,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1faecabf016baf4",
+        "type": "function",
+        "z": "669243c727fa687e",
+        "name": "T1 (raktár hőmérséklet melegpont)",
+        "func": "return { payload: JSON.parse(msg.payload).temperature_1 };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 460,
+        "wires": [
+            [
+                "2cf0410ae51433db",
+                "5adc46be668a5cc4",
+                "bf53cb481a711f23"
+            ]
+        ]
+    },
+    {
+        "id": "30e53fc7210d5c81",
+        "type": "function",
+        "z": "669243c727fa687e",
+        "name": "T2 (hűtő hőmérséklet)",
+        "func": "return { payload: JSON.parse(msg.payload).temperature_2 };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 540,
+        "wires": [
+            [
+                "386ad1335e385057"
+            ]
+        ]
+    },
+    {
+        "id": "d2af21fb4b7f410f",
+        "type": "function",
+        "z": "669243c727fa687e",
+        "name": "T3 (külső hőmérséklet)",
+        "func": "return { payload: JSON.parse(msg.payload).temperature_3 };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 620,
+        "wires": [
+            [
+                "cff048b86a3aed58"
+            ]
+        ]
+    },
+    {
+        "id": "55eefb53efb14bae",
+        "type": "function",
+        "z": "669243c727fa687e",
+        "name": "H0 (raktár páratartalom)",
+        "func": "return { payload: JSON.parse(msg.payload).humidity_0 };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 720,
+        "wires": [
+            [
+                "7dc809ccf1cdadfe"
+            ]
+        ]
+    },
+    {
+        "id": "386ad1335e385057",
+        "type": "link out",
+        "z": "669243c727fa687e",
+        "name": "temperature_2",
+        "links": [
+            "5c33371522311b2c"
+        ],
+        "x": 895,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "cff048b86a3aed58",
+        "type": "link out",
+        "z": "669243c727fa687e",
+        "name": "temperature_3",
+        "links": [
+            "dc278aa898ed7a5d"
+        ],
+        "x": 895,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "7dc809ccf1cdadfe",
+        "type": "link out",
+        "z": "669243c727fa687e",
+        "name": "humidity_0",
+        "links": [
+            "5903f9f08f029851"
+        ],
+        "x": 895,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "b18c5df5515add2a",
+        "type": "link in",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "links": [
+            "2cf0410ae51433db"
+        ],
+        "x": 175,
+        "y": 200,
+        "wires": [
+            [
+                "d8fd2dd2dff14782"
+            ]
+        ]
+    },
+    {
+        "id": "5c33371522311b2c",
+        "type": "link in",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "links": [
+            "386ad1335e385057"
+        ],
+        "x": 175,
+        "y": 260,
+        "wires": [
+            [
+                "7d07521e25bbf1af"
+            ]
+        ]
+    },
+    {
+        "id": "dc278aa898ed7a5d",
+        "type": "link in",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "links": [
+            "cff048b86a3aed58"
+        ],
+        "x": 175,
+        "y": 320,
+        "wires": [
+            [
+                "d4a6e351ebc82d5f"
+            ]
+        ]
+    },
+    {
+        "id": "5903f9f08f029851",
+        "type": "link in",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "links": [
+            "7dc809ccf1cdadfe"
+        ],
+        "x": 175,
+        "y": 380,
+        "wires": [
+            [
+                "0f61cba4bf58b6b5"
+            ]
+        ]
+    },
+    {
+        "id": "d8fd2dd2dff14782",
+        "type": "ui_chart",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "group": "50e67679ded542be",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "label": "Raktár hőmérséklet (melegpont)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "30",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 430,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d07521e25bbf1af",
+        "type": "ui_chart",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "group": "40882a3e4ad21d6a",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "label": "Hűtőszekrény hőmérséklet",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 420,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4a6e351ebc82d5f",
+        "type": "ui_chart",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "group": "a3a4459a0dbb3fb0",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "label": "Külső hőmérséklet",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "cubic",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-30",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 390,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0f61cba4bf58b6b5",
+        "type": "ui_chart",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "group": "50e67679ded542be",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "label": "Raktár páratartalom",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 400,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "17e4d80e6272e2ea",
+        "type": "ui_toast",
+        "z": "21701d5152061e2e",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 370,
+        "y": 440,
+        "wires": [],
+        "info": "Ez egy üzenet!"
+    },
+    {
+        "id": "2c206b63ce0de008",
+        "type": "ui_numeric",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "label": "raktár hőmérséklet min",
+        "tooltip": "",
+        "group": "132699a6791983a0",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "30",
+        "step": 1,
+        "x": 380,
+        "y": 560,
+        "wires": [
+            [
+                "0c41ac56d91dab9e"
+            ]
+        ]
+    },
+    {
+        "id": "b66b956ccd5bf8da",
+        "type": "ui_numeric",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "label": "raktár hőmérséklet max",
+        "tooltip": "",
+        "group": "132699a6791983a0",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "30",
+        "step": 1,
+        "x": 390,
+        "y": 620,
+        "wires": [
+            [
+                "608d095ba9d6a1fd"
+            ]
+        ]
+    },
+    {
+        "id": "f2b1e61ae7b38e94",
+        "type": "ui_numeric",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "label": "hűtő hőmérséklet min",
+        "tooltip": "",
+        "group": "132699a6791983a0",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 380,
+        "y": 680,
+        "wires": [
+            [
+                "3e69c677483a51e7"
+            ]
+        ]
+    },
+    {
+        "id": "d75789f498fe7a65",
+        "type": "ui_numeric",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "label": "hűtő hőmérséklet max",
+        "tooltip": "",
+        "group": "132699a6791983a0",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 380,
+        "y": 740,
+        "wires": [
+            [
+                "42881ca6edbcda7b"
+            ]
+        ]
+    },
+    {
+        "id": "82a6df95fd96fee1",
+        "type": "ui_numeric",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "label": "raktár páratartalom min",
+        "tooltip": "",
+        "group": "132699a6791983a0",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 370,
+        "y": 800,
+        "wires": [
+            [
+                "c7a30f1615e04b4c"
+            ]
+        ]
+    },
+    {
+        "id": "898039653677947e",
+        "type": "ui_numeric",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "label": "raktár páratartalom max",
+        "tooltip": "",
+        "group": "132699a6791983a0",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 370,
+        "y": 860,
+        "wires": [
+            [
+                "d4bd166e45346a62"
+            ]
+        ]
+    },
+    {
+        "id": "e93ce80820263a1c",
+        "type": "function",
+        "z": "669243c727fa687e",
+        "name": "H1 (külső páratartalom)",
+        "func": "return { payload: JSON.parse(msg.payload).humidity_0 };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 800,
+        "wires": [
+            [
+                "324cb4cdc7c961ff"
+            ]
+        ]
+    },
+    {
+        "id": "324cb4cdc7c961ff",
+        "type": "link out",
+        "z": "669243c727fa687e",
+        "name": "humidity_1",
+        "links": [],
+        "x": 885,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "5adc46be668a5cc4",
+        "type": "switch",
+        "z": "669243c727fa687e",
+        "name": "rt (min-max)",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "trmin",
+                "vt": "global"
+            },
+            {
+                "t": "gt",
+                "v": "trmax",
+                "vt": "global"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1090,
+        "y": 420,
+        "wires": [
+            [
+                "48434419cc85b6c7"
+            ],
+            [
+                "08243fa316d9159d"
+            ]
+        ]
+    },
+    {
+        "id": "0c41ac56d91dab9e",
+        "type": "change",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "trmin",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "608d095ba9d6a1fd",
+        "type": "change",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "trmax",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3e69c677483a51e7",
+        "type": "change",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "thmin",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42881ca6edbcda7b",
+        "type": "change",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "thmax",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7a30f1615e04b4c",
+        "type": "change",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "prmin",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4bd166e45346a62",
+        "type": "change",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "prmax",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "48434419cc85b6c7",
+        "type": "change",
+        "z": "669243c727fa687e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "\"Raktár hőmérséklet alacsony\"",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 400,
+        "wires": [
+            [
+                "7d600666f93ae2eb",
+                "b19b2ec67a5218a9"
+            ]
+        ]
+    },
+    {
+        "id": "372c949fdc6e013a",
+        "type": "file",
+        "z": "669243c727fa687e",
+        "name": "Mentés",
+        "filename": "/home/lgyenge/Mérés.txt",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 540,
+        "y": 120,
+        "wires": [
+            [
+                "2e16e00509548f18"
+            ]
+        ]
+    },
+    {
+        "id": "2e16e00509548f18",
+        "type": "debug",
+        "z": "669243c727fa687e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "782b06fb.cc1df8",
+        "type": "comment",
+        "z": "c6c601b02993af2c",
+        "name": "Auto Logger archiving",
+        "info": "Generate file name that are to be archived.\n\nIdea is that this generates a list of file names for let's say between current day-5 days to current day-10 days, so all files that are 5-10 days old will get archived. And this can be executed daily or weekly, and the interval allows some overlap (e.g. the program fails, Node-Red was down, etc.)\n\nInject node should contain a JSON:\n{    \n    \"start\": 20,    \n    \"end\": 10\n}\n\nThis will generate file names D-20 to D-10 days.\nStart should be greather than end!\n",
+        "x": 1160,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "f14e2f71.1ad87",
+        "type": "function",
+        "z": "c6c601b02993af2c",
+        "name": "Maplin Filename generator",
+        "func": "let output = [];\nfor (var i=msg.payload.end;i<msg.payload.start;i++) {\n    \n    // calculate the date\n    let now = new Date();\n    now.setTime(now.getTime() - 1000*60*60*24*i);\n    let yyyy = now.getFullYear();\n    let mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\n    let dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\n    let hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\n    let mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\n    let ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n    \n    let newfile = { \"topic\": \"archive\", \"payload\": \"\"};\n    // Generate out file name pattern\n    newfile.fname = \"maplin_\"+ yyyy + mm + dd + \".csv\";\n    // Full filename with path \n    newfile.filename = \"/home/pi/datalog/\"+ newfile.fname;\n    \n    // Shell script only needs the filename without the path\n    newfile.payload = newfile.fname;\n    output.push(newfile);\n\n}\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1420,
+        "y": 100,
+        "wires": [
+            [
+                "5ba61ce5.11d8a4"
+            ]
+        ]
+    },
+    {
+        "id": "b57ab78e.cf1658",
+        "type": "function",
+        "z": "c6c601b02993af2c",
+        "name": "Weather Station Filename generator",
+        "func": "let output = [];\nfor (var i=msg.payload.end;i<msg.payload.start;i++) {\n    \n    // calculate the date\n    let now = new Date();\n    now.setTime(now.getTime() - 1000*60*60*24*i);\n    let yyyy = now.getFullYear();\n    let mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\n    let dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\n    let hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\n    let mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\n    let ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n    \n    let newfile = { \"topic\": \"archive\", \"payload\": \"\"};\n    // Generate out file name pattern\n    newfile.fname = \"weather_sensor_\"+ yyyy + mm + dd + \".csv\";\n    // Full filename with path \n    newfile.filename = \"/home/pi/datalog/\"+ newfile.fname;\n    \n    // Shell script only needs the filename without the path\n    newfile.payload = newfile.fname;\n    output.push(newfile);\n\n}\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1450,
+        "y": 160,
+        "wires": [
+            [
+                "5ba61ce5.11d8a4"
+            ]
+        ]
+    },
+    {
+        "id": "5e47f3b4.7c779c",
+        "type": "inject",
+        "z": "c6c601b02993af2c",
+        "name": "Start",
+        "props": [
+            {
+                "p": "payload",
+                "v": "{\"start\":20,\"end\":10}",
+                "vt": "json"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "string"
+            }
+        ],
+        "repeat": "",
+        "crontab": "40 02 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"start\":20,\"end\":10}",
+        "payloadType": "json",
+        "x": 1150,
+        "y": 120,
+        "wires": [
+            [
+                "f14e2f71.1ad87",
+                "b57ab78e.cf1658"
+            ]
+        ]
+    },
+    {
+        "id": "ad87fee.c53d5",
+        "type": "exec",
+        "z": "c6c601b02993af2c",
+        "command": "/home/pi/log_upload.sh",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "File upload",
+        "x": 1750,
+        "y": 100,
+        "wires": [
+            [],
+            [],
+            [
+                "5f0f09f4.a09208"
+            ]
+        ]
+    },
+    {
+        "id": "5f0f09f4.a09208",
+        "type": "switch",
+        "z": "c6c601b02993af2c",
+        "name": "Return code",
+        "property": "payload.code",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2030,
+        "y": 200,
+        "wires": [
+            [],
+            [
+                "639dcab5.1028b4"
+            ]
+        ]
+    },
+    {
+        "id": "49210be0.0dbbe4",
+        "type": "exec",
+        "z": "c6c601b02993af2c",
+        "command": "sudo rm ",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "File delete",
+        "x": 2170,
+        "y": 100,
+        "wires": [
+            [],
+            [],
+            [
+                "1fee1de5.695e32"
+            ]
+        ]
+    },
+    {
+        "id": "639dcab5.1028b4",
+        "type": "change",
+        "z": "c6c601b02993af2c",
+        "name": "Get filename",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "filename",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1990,
+        "y": 100,
+        "wires": [
+            [
+                "49210be0.0dbbe4"
+            ]
+        ]
+    },
+    {
+        "id": "1fee1de5.695e32",
+        "type": "switch",
+        "z": "c6c601b02993af2c",
+        "name": "Return code",
+        "property": "payload.code",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 2390,
+        "y": 120,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5ba61ce5.11d8a4",
+        "type": "delay",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1680,
+        "y": 300,
+        "wires": [
+            [
+                "ad87fee.c53d5"
+            ]
+        ]
+    },
+    {
+        "id": "9da5c02.66c844",
+        "type": "comment",
+        "z": "c6c601b02993af2c",
+        "name": "log_upload.sh",
+        "info": "ftp -inv 192.168.1.x << EOF\n    user <username> <password>\n    binary\n    cd backup/logs\n    lcd /home/pi/datalog\n    put $1\nEOF",
+        "x": 1730,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "f79c29b7.055068",
+        "type": "comment",
+        "z": "c6c601b02993af2c",
+        "name": "Auto Logger",
+        "info": "",
+        "x": 1130,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f46f569e.ff1a08",
+        "type": "function",
+        "z": "c6c601b02993af2c",
+        "name": "Filename generator",
+        "func": "// Get the current time and convert it to text\nvar now = new Date();\nvar yyyy = now.getFullYear();\nvar mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\nvar dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\nvar hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\nvar mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\nvar ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n\n// Generate out file name pattern\nmsg.fname = \"bbraun_\"+ yyyy + mm + dd + \".csv\";\n// Full filename with path for the file node later\nmsg.filename = \"/home/lgyenge/datalog/\"+ msg.fname;\n\n// We save the current payload into a different place on the msg object\nmsg.filecontent = msg.payload;\n\n// We are passing the file name search pattern to fs node to tell us if the file exists or not\nmsg.payload = {\"pattern\":msg.fname};\n\nnode.status({fill:\"blue\",shape:\"ring\",text:msg.fname});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 560,
+        "wires": [
+            [
+                "fa6936f.7758dc8"
+            ]
+        ]
+    },
+    {
+        "id": "a96494a5.b0f4c8",
+        "type": "debug",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "filecontent",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1600,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "3db97537.b889ea",
+        "type": "switch",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "property": "$count(msg.payload)",
+        "propertyType": "jsonata",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1570,
+        "y": 560,
+        "wires": [
+            [
+                "3cb887e8.e533a8"
+            ],
+            [
+                "f3ba1c7a.54ef5"
+            ]
+        ]
+    },
+    {
+        "id": "fe6f74d5.674ec8",
+        "type": "csv",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "timestamp, temperature_0,temperature_1,temperature_2,temperature_3,humidity_0,,",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 1910,
+        "y": 540,
+        "wires": [
+            [
+                "3a8ebdf3.772cc2"
+            ]
+        ]
+    },
+    {
+        "id": "3a8ebdf3.772cc2",
+        "type": "file",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "filename": "",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 2070,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f226a86d.9bdfb8",
+        "type": "csv",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "timestamp, temperature_0,temperature_1,temperature_2,temperature_3,humidity_0",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 1910,
+        "y": 580,
+        "wires": [
+            [
+                "3a8ebdf3.772cc2"
+            ]
+        ]
+    },
+    {
+        "id": "3cb887e8.e533a8",
+        "type": "change",
+        "z": "c6c601b02993af2c",
+        "name": "Get file content",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "filecontent",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1740,
+        "y": 540,
+        "wires": [
+            [
+                "fe6f74d5.674ec8"
+            ]
+        ]
+    },
+    {
+        "id": "f3ba1c7a.54ef5",
+        "type": "change",
+        "z": "c6c601b02993af2c",
+        "name": "Get file content",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "filecontent",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1740,
+        "y": 580,
+        "wires": [
+            [
+                "f226a86d.9bdfb8"
+            ]
+        ]
+    },
+    {
+        "id": "fa6936f.7758dc8",
+        "type": "fs-file-lister",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "start": "/home/lgyenge/datalog/",
+        "pattern": "",
+        "folders": "*",
+        "hidden": true,
+        "lstype": "files",
+        "path": true,
+        "single": true,
+        "depth": 0,
+        "stat": true,
+        "showWarnings": false,
+        "x": 1420,
+        "y": 560,
+        "wires": [
+            [
+                "a96494a5.b0f4c8",
+                "3db97537.b889ea"
+            ]
+        ]
+    },
+    {
+        "id": "02278560c6e98dce",
+        "type": "link out",
+        "z": "669243c727fa687e",
+        "name": "measurement",
+        "links": [
+            "cbef39614379f938",
+            "9c629abd93751e3f"
+        ],
+        "x": 545,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "cbef39614379f938",
+        "type": "link in",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "links": [
+            "02278560c6e98dce"
+        ],
+        "x": 1135,
+        "y": 360,
+        "wires": [
+            [
+                "92612a2d30b40dc9"
+            ]
+        ]
+    },
+    {
+        "id": "92612a2d30b40dc9",
+        "type": "function",
+        "z": "c6c601b02993af2c",
+        "name": "Set meas data",
+        "func": "var now = new Date();\nvar meas = JSON.parse(msg.payload)\nmsg.payload = {\n    \"timestamp\" : now.getTime(),\n    \"temperature_0\" : meas.temperature_0,\n    \"temperature_1\" : meas.temperature_1,\n    \"temperature_2\" : meas.temperature_2,\n    \"temperature_3\" : meas.temperature_3,\n    \"humidity_0\" : meas.humidity_0,\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 360,
+        "wires": [
+            [
+                "f46f569e.ff1a08"
+            ]
+        ]
+    },
+    {
+        "id": "08243fa316d9159d",
+        "type": "change",
+        "z": "669243c727fa687e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "\"Raktár hőmérséklet magas\"",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 460,
+        "wires": [
+            [
+                "7d600666f93ae2eb",
+                "b19b2ec67a5218a9"
+            ]
+        ]
+    },
+    {
+        "id": "b19b2ec67a5218a9",
+        "type": "link out",
+        "z": "669243c727fa687e",
+        "name": "rt (min-max)",
+        "links": [
+            "2aa71a1976ab67d4"
+        ],
+        "x": 1535,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "2aa71a1976ab67d4",
+        "type": "link in",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "links": [
+            "b19b2ec67a5218a9"
+        ],
+        "x": 1145,
+        "y": 740,
+        "wires": [
+            [
+                "9cd168b71390d1e2",
+                "ca768e8ec1151010"
+            ]
+        ]
+    },
+    {
+        "id": "9cd168b71390d1e2",
+        "type": "function",
+        "z": "c6c601b02993af2c",
+        "name": "Set alarm log",
+        "func": "// Get the current time and convert it to text\nvar now = new Date();\nvar yyyy = now.getFullYear();\nvar mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\nvar dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\nvar hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\nvar mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\nvar ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n\n// Generate out file name pattern (one file per month)\nmsg.fname = \"bbraun_alarm_\"+ yyyy + mm + \".txt\";\n// Full filename with path for the file node later\nmsg.filename = \"/home/lgyenge/datalog/\"+ msg.fname;\n\n// We save the current payload into a different place on the msg object\n//msg.filecontent = yyyy + \" \"+ mm + \" \"+ dd + \" \" + hh +\"h \" + mmm +\"m \"+ ss +\"s \" + msg.payload;\n\n// We are passing the file name search pattern to fs node to tell us if the file exists or not\n//msg.payload = {\"pattern\":msg.fname};\nmsg.payload = yyyy + \" \"+ mm + \" \"+ dd + \" \" + hh +\"h \" + mmm +\"m \"+ ss +\"s \" + msg.payload;\n//node.warn(msg.payload);\nnode.status({fill:\"blue\",shape:\"ring\",text:msg.fname});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 800,
+        "wires": [
+            [
+                "d44b80a4a689b93d",
+                "4a3eb1df804215ec"
+            ]
+        ]
+    },
+    {
+        "id": "d44b80a4a689b93d",
+        "type": "file",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1620,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca768e8ec1151010",
+        "type": "debug",
+        "z": "c6c601b02993af2c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1360,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "644eacd9760dd2bd",
+        "type": "link in",
+        "z": "21701d5152061e2e",
+        "name": "",
+        "links": [
+            "4a3eb1df804215ec"
+        ],
+        "x": 125,
+        "y": 480,
+        "wires": [
+            [
+                "17e4d80e6272e2ea"
+            ]
+        ]
+    },
+    {
+        "id": "4a3eb1df804215ec",
+        "type": "link out",
+        "z": "c6c601b02993af2c",
+        "name": "alarm message",
+        "links": [
+            "644eacd9760dd2bd"
+        ],
+        "x": 1525,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "8552e78c.dbbb38",
+        "type": "http in",
+        "z": "fe3bbe1c28145180",
+        "name": "",
+        "url": "/data",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 480,
+        "y": 160,
+        "wires": [
+            [
+                "2f811f15.f752"
+            ]
+        ]
+    },
+    {
+        "id": "2f811f15.f752",
+        "type": "function",
+        "z": "fe3bbe1c28145180",
+        "name": "ETL",
+        "func": "var type = msg.payload.TestDetail.MonitorTypeId;\n\nvar str = msg.payload.Summary.Timestamp;\nvar year = str.substring(0, 4);\nvar month = str.substring(4, 6);\nvar day = str.substring(6, 8);\nvar hour = str.substring(8, 10);\nvar minute = str.substring(10, 12);\nvar second = str.substring(12, 14);\nvar ms = str.substring(15, 18);\nvar date = new Date(year, month-1, day, hour, minute, second, ms);\n\nif (typeof msg.payload.Summary.Counter.JsFailures != \"undefined\") {\n    JsFailures = msg.payload.Summary.Counter.JsFailures;\n} else {\n    JsFailures = 0;\n}\n\nif (typeof msg.payload.Summary.Error != \"undefined\" && typeof msg.payload.Summary.Error.Code != \"undefined\") {\n    avail = 0;\n} else {\n    avail = 100;\n}\n\nif (typeof msg.payload.Summary.Timing.DocumentComplete != \"undefined\") {\n  docComplete = msg.payload.Summary.Timing.DocumentComplete;\n} else {\n  docComplete = 0;\n}\n\nif (typeof msg.payload.Summary.Timing.RenderStart != \"undefined\") {\n  renderStart = msg.payload.Summary.Timing.RenderStart;\n} else {\n  renderStart = 0;\n}\n\nif (typeof msg.payload.Summary.Timing.DomLoad != \"undefined\") {\n  domLoad = msg.payload.Summary.Timing.DomLoad;\n} else {\n  domLoad = 0;\n}\n\nif (typeof msg.payload.Summary.Byte != \"undefined\") {\n  totalContent = msg.payload.Summary.Byte.Response.TotalContent;\n  image = msg.payload.Summary.Byte.Response.ContentType.Image;\n  script = msg.payload.Summary.Byte.Response.ContentType.Script;\n  css = msg.payload.Summary.Byte.Response.ContentType.Css;\n  html = msg.payload.Summary.Byte.Response.ContentType.Html;\n} else {\n  totalContent = 0;\n  image = 0;\n  script = 0;\n  css = 0;\n  html = 0;\n}\n\nif (type == 18) {\n    msg.payload = [\n\t    {\n\t\t    measurement: \"test_timing\",\n\t\t    fields: {\n\t\t      total: msg.payload.Summary.Timing.Total,\n\t\t\t    dns: msg.payload.Summary.Timing.Dns,\n\t\t\t    wait: msg.payload.Summary.Timing.Wait,\n\t\t\t    docComplete: docComplete,\n\t\t\t    renderStart: renderStart,\n\t\t\t    domLoad: domLoad\n\t\t    },\n\t\t    tags:{\n\t\t\t    testname: msg.payload.TestDetail.Name,\n\t\t\t    nodename: msg.payload.NodeName\n\t\t    },\n\t\t    timestamp: date\n\t    },\n\t    {\n\t\t    measurement: \"test_byte\",\n\t\t    fields: {\n\t\t\t    totalContent: totalContent,\n\t\t\t    image: image,\n\t\t\t    script: script,\n\t\t\t    css: css,\n\t\t\t    html: html\n\t\t    },\n\t\t    tags:{\n\t\t\t    testname: msg.payload.TestDetail.Name,\n\t\t\t    nodename: msg.payload.NodeName\n\t\t    },\n\t\t    timestamp: date\n\t    },\n\t    {\n\t\t    measurement: \"test_counter\",\n\t\t    fields: {\n\t\t\t    hosts: msg.payload.Summary.Counter.Hosts,\n\t\t\t    requests: msg.payload.Summary.Counter.Requests,\n\t\t\t    failedRequests: msg.payload.Summary.Counter.FailedRequests,\n\t\t\t    JsFailures: JsFailures,\n\t\t\t    error: avail\n\t\t    },\n\t\t    tags:{\n\t\t\t    testname: msg.payload.TestDetail.Name,\n\t\t\t    nodename: msg.payload.NodeName\n\t\t    },\n\t\t    timestamp: date\n\t    }\n    ];\n\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 660,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "87f0f333.80b6d",
+        "type": "http response",
+        "z": "fe3bbe1c28145180",
+        "name": "200 Status",
+        "statusCode": "200",
+        "headers": {},
+        "x": 840,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "cebebc0e8b72aac6",
+        "type": "inject",
+        "z": "fe3bbe1c28145180",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Teszt üzenet3",
+        "payload": "gylpayload2",
+        "payloadType": "str",
+        "x": 700,
+        "y": 60,
+        "wires": [
+            [
+                "0097aae5e7ed99ac"
+            ]
+        ]
+    },
+    {
+        "id": "15c79e62.9294c2",
+        "type": "inject",
+        "z": "4b97dc3d0f5571e7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payloadType": "date",
+        "x": 700,
+        "y": 120,
+        "wires": [
+            [
+                "a97b005f.7f22e"
+            ]
+        ]
+    },
+    {
+        "id": "a97b005f.7f22e",
+        "type": "function",
+        "z": "4b97dc3d0f5571e7",
+        "name": "Fields and Tags",
+        "func": "msg.payload = [{\n    intValue: '10i',\n    numValue: 12,\n    randomValue: Math.random()*10,\n    strValue: \"message2\"\n},\n{\n    tag1:\"sensor1\",\n    tag2:\"device2\"\n}];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 100,
+        "wires": [
+            [
+                "a91d522b.9a077",
+                "9ac096c391a2edc8"
+            ]
+        ]
+    },
+    {
+        "id": "9ac096c391a2edc8",
+        "type": "function",
+        "z": "4b97dc3d0f5571e7",
+        "name": "",
+        "func": "//var meas = JSON.parse(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 280,
+        "wires": [
+            [
+                "81c2512a325b022f"
+            ]
+        ]
+    },
+    {
+        "id": "81c2512a325b022f",
+        "type": "debug",
+        "z": "4b97dc3d0f5571e7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9c629abd93751e3f",
+        "type": "link in",
+        "z": "4b97dc3d0f5571e7",
+        "name": "",
+        "links": [
+            "02278560c6e98dce"
+        ],
+        "x": 685,
+        "y": 540,
+        "wires": [
+            [
+                "2d99c1fb6323e123"
+            ]
+        ]
+    },
+    {
+        "id": "2d99c1fb6323e123",
+        "type": "function",
+        "z": "4b97dc3d0f5571e7",
+        "name": "",
+        "func": "var meas = JSON.parse(msg.payload);\nvar tags = {\n    tag1:\"bbraun\",\n    tag2:\"raktar\"\n}\nmsg.payload =[];\nmsg.payload.push(meas);\nmsg.payload.push(tags);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 540,
+        "wires": [
+            [
+                "7f5f08e413e9129f",
+                "a91d522b.9a077"
+            ]
+        ]
+    },
+    {
+        "id": "7f5f08e413e9129f",
+        "type": "debug",
+        "z": "4b97dc3d0f5571e7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "dce34fa7.56d7d",
+        "type": "function",
+        "z": "c164c577a56d4f5a",
+        "name": "Vertical Bar Chart",
+        "func": "function getGetOrdinal(n) {\n    var s=[\"th\",\"st\",\"nd\",\"rd\"],\n    v=n%100;\n    return n+(s[(v-20)%10]||s[v]||s[0]);\n }\n\nvar dL = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\nvar dS = [\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"];\nvar mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];\nvar mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];\n\nlet now = new Date();\n\n// Create the chart object\nlet m = {\n    type: 'bar',\n    options: {\n        title: {\n            display:true,\n            text:'Vertical bar example'\n        },\n        legend: {\n            display:false\n        },\n        chartArea: {\n            backgroundColor: 'white'\n        },\n        plugins: {\n            datalabels: {\n                display:true,\n                backgroundColor:'whitesmoke',\n                borderRadius:1,\n                padding:1,\n                align: 'right',\n                anchor: function(context) {\n                    //node.send({debug:{dataindex:context.dataIndex}});\n                    if (context.dataIndex == context.dataset.data.length - 1) {\n                        return 'center';\n                    } else {\n                        return 'end';\n                    }\n                },\n                offset:8,\n                formatter:function(value) {\n                    return value > 0 ? value.toLocaleString() : '';\n                }\n            }\n        }\n    },\n    data: {\n        labels:[],\n        datasets: [\n            {\n                label:\"Sample data\",\n                backgroundColor:'rgba(57,97,184,0.8)',\n                data:[]\n            }\n        ]\n    }\n}\n\nlet l = Math.floor(Math.random()*50);\n\nfor (let i=0; i<10; i++) {\n    l = l + Math.floor(Math.random()*6)-3;\n    m.data.datasets[0].data.push(l);\n    var d = new Date();\n    d.setTime(now.getTime()-1000*60*60*24*(10-i));\n    m.data.labels.push(dL[d.getDay()]+\", \"+getGetOrdinal(d.getDate()));\n}\n\nmsg.payload = m;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 430,
+        "y": 240,
+        "wires": [
+            [
+                "12d010c4.fc8e3f"
+            ]
+        ]
+    },
+    {
+        "id": "12d010c4.fc8e3f",
+        "type": "chart-image",
+        "z": "c164c577a56d4f5a",
+        "name": "",
+        "width": "1500",
+        "height": "500",
+        "x": 630,
+        "y": 240,
+        "wires": [
+            [
+                "62271758.c63728"
+            ]
+        ]
+    },
+    {
+        "id": "62271758.c63728",
+        "type": "file",
+        "z": "c164c577a56d4f5a",
+        "name": "Image dump",
+        "filename": "/home/lgyenge/datalog/charts/test.png",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 890,
+        "y": 240,
+        "wires": [
+            [
+                "18d162d1.33e8ed"
+            ]
+        ]
+    },
+    {
+        "id": "18d162d1.33e8ed",
+        "type": "function",
+        "z": "c164c577a56d4f5a",
+        "name": "Telegram message",
+        "func": "msg.payload = {chatId: \"xxxxx\", type:\"photo\", content:\"/home/pi/charts/test.png\", caption:\"Chart caption\"};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68d737f4.5047f8",
+        "type": "inject",
+        "z": "c164c577a56d4f5a",
+        "name": "Vertical Bar",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "dce34fa7.56d7d"
+            ]
+        ]
+    },
+    {
+        "id": "5f624f25.98f38",
+        "type": "function",
+        "z": "c164c577a56d4f5a",
+        "name": "Vertical Bar Chart 2 series",
+        "func": "function getGetOrdinal(n) {\n    var s=[\"th\",\"st\",\"nd\",\"rd\"],\n    v=n%100;\n    return n+(s[(v-20)%10]||s[v]||s[0]);\n }\n\nvar dL = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\nvar dS = [\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"];\nvar mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];\nvar mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];\n\nlet now = new Date();\n\n// Create the chart object\nlet m = {\n    type: 'bar',\n    options: {\n        title: {\n            display:true,\n            text:'Vertical bar with 2 data series'\n        },\n        legend: {\n            display:true\n        },\n        chartArea: {\n            backgroundColor: 'white'\n        },\n        plugins: {\n            datalabels: {\n                display:true,\n                backgroundColor:'whitesmoke',\n                borderRadius:1,\n                padding:1,\n                align: 'right',\n                anchor: function(context) {\n                    //node.send({debug:{dataindex:context.dataIndex}});\n                    if (context.dataIndex == context.dataset.data.length - 1) {\n                        return 'center';\n                    } else {\n                        return 'end';\n                    }\n                },\n                offset:8,\n                formatter:function(value) {\n                    return value > 0 ? value.toLocaleString() : '';\n                }\n            }\n        }\n    },\n    data: {\n        labels:[],\n        datasets: [\n            {\n                label:\"Series 1\",\n                backgroundColor:'rgba(57,97,184,0.8)',\n                data:[]\n            },\n            {\n                label:\"Series 2\",\n                backgroundColor:'rgba(127, 184, 57,0.8)',\n                data:[]\n            }\n        ]\n    }\n}\n\nlet l = Math.floor(Math.random()*50);\nlet k = Math.floor(Math.random()*50);\n\nfor (let i=0; i<10; i++) {\n    l = l + Math.floor(Math.random()*6)-3;\n    m.data.datasets[0].data.push(l);\n    k = k + Math.floor(Math.random()*6)-3;\n    m.data.datasets[1].data.push(k);\n    var d = new Date();\n    d.setTime(now.getTime()-1000*60*60*24*(10-i));\n    let month = \"\" + (d.getMonth() + 1);\n    let day = \"\" + d.getDate();\n    let year = d.getFullYear();\n\n    if (month.length < 2) month = '0' + month;\n    if (day.length < 2) day = '0' + day;\n    m.data.labels.push(day + \".\"+month+\".\"+year);\n}\n\nmsg.payload = m;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 450,
+        "y": 300,
+        "wires": [
+            [
+                "89dfcf39.990ca"
+            ]
+        ]
+    },
+    {
+        "id": "89dfcf39.990ca",
+        "type": "chart-image",
+        "z": "c164c577a56d4f5a",
+        "name": "",
+        "width": 500,
+        "height": "500",
+        "x": 670,
+        "y": 300,
+        "wires": [
+            [
+                "62271758.c63728"
+            ]
+        ]
+    },
+    {
+        "id": "d658d601.f421e8",
+        "type": "inject",
+        "z": "c164c577a56d4f5a",
+        "name": "Vertical Bar",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 300,
+        "wires": [
+            [
+                "5f624f25.98f38"
+            ]
+        ]
+    },
+    {
+        "id": "e284de4.fc6a12",
+        "type": "function",
+        "z": "c164c577a56d4f5a",
+        "name": "Line Chart",
+        "func": "function getGetOrdinal(n) {\n    var s=[\"th\",\"st\",\"nd\",\"rd\"],\n    v=n%100;\n    return n+(s[(v-20)%10]||s[v]||s[0]);\n }\n\nvar dL = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\nvar dS = [\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"];\nvar mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];\nvar mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];\n\nlet now = new Date();\n\n// Create the chart object\nlet m = {\n    type: 'line',\n    options: {\n        title: {\n            display:true,\n            text:'Line chart example'\n        },\n        legend: {\n            display:false\n        },\n        chartArea: {\n            backgroundColor: 'white'\n        },\n        plugins: {\n            datalabels: {\n                display:true,\n                backgroundColor:'whitesmoke', \n                borderRadius:1,\n                padding:1,\n                align: 'right',\n                anchor: function(context) {\n                    //node.send({debug:{dataindex:context.dataIndex}});\n                    if (context.dataIndex == context.dataset.data.length - 1) {\n                        return 'center';\n                    } else {\n                        return 'end';\n                    }\n                },\n                offset:8,\n                formatter:function(value) {\n                    return value > 0 ? value.toLocaleString() : '';\n                }\n            }\n        }\n    },\n    data: {\n        labels:[],\n        datasets: [\n            {\n                label:\"Sample data\",\n                borderColor:'rgba(57,97,184,0.8)',\n                fill:false,\n                data:[]\n            }\n        ]\n    }\n}\n\nlet l = Math.floor(Math.random()*50);\n\nfor (let i=0; i<10; i++) {\n    l = l + Math.floor(Math.random()*6)-3;\n    m.data.datasets[0].data.push(l);\n    var d = new Date();\n    d.setTime(now.getTime()-1000*60*60*24*(10-i));\n    m.data.labels.push(dL[d.getDay()]+\", \"+getGetOrdinal(d.getDate()));\n}\n\nmsg.payload = m;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 400,
+        "wires": [
+            [
+                "f7e11042.f96d9"
+            ]
+        ]
+    },
+    {
+        "id": "f7e11042.f96d9",
+        "type": "chart-image",
+        "z": "c164c577a56d4f5a",
+        "name": "",
+        "width": 500,
+        "height": "500",
+        "x": 630,
+        "y": 400,
+        "wires": [
+            [
+                "62271758.c63728",
+                "fac75646.ed0358"
+            ]
+        ]
+    },
+    {
+        "id": "f9531538.ab1988",
+        "type": "inject",
+        "z": "c164c577a56d4f5a",
+        "name": "Line Chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 400,
+        "wires": [
+            [
+                "e284de4.fc6a12"
+            ]
+        ]
+    },
+    {
+        "id": "4bfe6190.6619c",
+        "type": "function",
+        "z": "c164c577a56d4f5a",
+        "name": "Line Chart 3 series",
+        "func": "function getGetOrdinal(n) {\n    var s=[\"th\",\"st\",\"nd\",\"rd\"],\n    v=n%100;\n    return n+(s[(v-20)%10]||s[v]||s[0]);\n }\n\nvar dL = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\nvar dS = [\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"];\nvar mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];\nvar mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];\n\nlet now = new Date();\n\n// Create the chart object\nlet m = {\n    type: 'line',\n    options: {\n        title: {\n            display:true,\n            text:'Line chart example'\n        },\n        legend: {\n            display:false\n        },\n        chartArea: {\n            backgroundColor: 'white'\n        },\n        plugins: {\n            datalabels: {\n                display:true,\n                backgroundColor:'whitesmoke',\n                borderRadius:1,\n                padding:1,\n                align: 'right',\n                anchor: function(context) {\n                    //node.send({debug:{dataindex:context.dataIndex}});\n                    if (context.dataIndex == context.dataset.data.length - 1) {\n                        return 'center';\n                    } else {\n                        return 'end';\n                    }\n                },\n                offset:8,\n                formatter:function(value) {\n                    return value > 0 ? value.toLocaleString() : '';\n                }\n            }\n        }\n    },\n    data: {\n        labels:[],\n        datasets: [\n            {\n                label:\"Series 1\",\n                borderColor:'rgba(184, 163, 57,0.8)',\n                backgroundColor:'rgba(184, 163, 57,0.1)',\n                fill:true,\n                data:[]\n            },\n            {\n                label:\"Series 2\",\n                borderColor:'rgba(57,97,184,0.8)',\n                fill:false,\n                data:[]\n            },\n            {\n                label:\"Series 3\",\n                borderColor:'rgba(184, 57, 93,0.8)',\n                fill:false,\n                data:[]\n            }\n        ]\n    }\n}\n\nlet l = Math.floor(Math.random()*50);\nlet k = l;\nlet j = l;\n\nfor (let i=0; i<10; i++) {\n    l = l + Math.floor(Math.random()*6)-3;\n    m.data.datasets[0].data.push(l);\n    k = k + Math.floor(Math.random()*6)-3;\n    m.data.datasets[1].data.push(k);\n    j = j + Math.floor(Math.random()*6)-3;\n    m.data.datasets[2].data.push(j);\n    var d = new Date();\n    d.setTime(now.getTime()-1000*60*60*24*(10-i));\n    m.data.labels.push(dL[d.getDay()]+\", \"+getGetOrdinal(d.getDate()));\n}\n\nmsg.payload = m;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 480,
+        "wires": [
+            [
+                "c86b69d5.68d2d8"
+            ]
+        ]
+    },
+    {
+        "id": "c86b69d5.68d2d8",
+        "type": "chart-image",
+        "z": "c164c577a56d4f5a",
+        "name": "",
+        "width": "1500",
+        "height": "500",
+        "x": 630,
+        "y": 480,
+        "wires": [
+            [
+                "62271758.c63728"
+            ]
+        ]
+    },
+    {
+        "id": "13c25f21.9a6aa1",
+        "type": "inject",
+        "z": "c164c577a56d4f5a",
+        "name": "Line Chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 480,
+        "wires": [
+            [
+                "4bfe6190.6619c"
+            ]
+        ]
+    },
+    {
+        "id": "d1ca5ba9.da1338",
+        "type": "function",
+        "z": "c164c577a56d4f5a",
+        "name": "Doughnut example",
+        "func": "function getGetOrdinal(n) {\n    var s=[\"th\",\"st\",\"nd\",\"rd\"],\n    v=n%100;\n    return n+(s[(v-20)%10]||s[v]||s[0]);\n }\n\nvar dL = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\nvar dS = [\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"];\nvar mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];\nvar mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];\n\nlet now = new Date();\n\n// Create the chart object\nlet m = {\n    type: 'pie',\n    options: {\n        cutoutPercentage: 50,\n        title: {\n            display:true,\n            text:'Doughnut chart example'\n        },\n        legend: {\n            display:false\n        },\n        chartArea: {\n            backgroundColor: 'white'\n        },\n        plugins: {\n            datalabels: {\n                display:true,\n                backgroundColor:'whitesmoke',\n                borderRadius:1,\n                padding:1,\n                align: 'right',\n                anchor: function(context) {\n                    //node.send({debug:{dataindex:context.dataIndex}});\n                    if (context.dataIndex == context.dataset.data.length - 1) {\n                        return 'center';\n                    } else {\n                        return 'end';\n                    }\n                },\n                offset:8,\n                formatter:function(value, context) {\n                    return value > 0 ? context.chart.data.labels[context.dataIndex]+\": \"+value.toLocaleString() : '';\n                }\n            }\n        }\n    },\n    data: {\n        labels:[],\n        datasets: [\n            {\n                backgroundColor:[],\n                borderColor:\"white\",\n                borderWidth:2,\n                data:[]\n            }\n        ]\n    }\n}\n\n\n\nfor (let i=0; i<12; i++) {\n    m.data.datasets[0].data.push(Math.floor(Math.random()*50));\n    m.data.datasets[0].backgroundColor.push(\"hsl(\"+i*360/12+\",100%,50%)\");\n    m.data.labels.push(mL[i]);\n}\n\nmsg.payload = m;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 430,
+        "y": 560,
+        "wires": [
+            [
+                "4af5b6dc.e60d28"
+            ]
+        ]
+    },
+    {
+        "id": "4af5b6dc.e60d28",
+        "type": "chart-image",
+        "z": "c164c577a56d4f5a",
+        "name": "",
+        "width": 500,
+        "height": "500",
+        "x": 630,
+        "y": 560,
+        "wires": [
+            [
+                "62271758.c63728"
+            ]
+        ]
+    },
+    {
+        "id": "493ec7a4.b98fe8",
+        "type": "inject",
+        "z": "c164c577a56d4f5a",
+        "name": "Line Chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 560,
+        "wires": [
+            [
+                "d1ca5ba9.da1338"
+            ]
+        ]
+    },
+    {
+        "id": "fac75646.ed0358",
+        "type": "change",
+        "z": "c164c577a56d4f5a",
+        "name": "Set up the email",
+        "rules": [
+            {
+                "t": "set",
+                "p": "attachments",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "attachments.content",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "attachments.filename",
+                "pt": "msg",
+                "to": "chart.jpg",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Chart example",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "This is the auto generated chart",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "to",
+                "pt": "msg",
+                "to": "<to_email_address>",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7f8ab204cb61980",
+        "type": "comment",
+        "z": "c164c577a56d4f5a",
+        "name": "Telegram send kitörölve",
+        "info": "",
+        "x": 1430,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7855b31f.be455c",
+        "type": "inject",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "58239d73.30c134"
+            ]
+        ]
+    },
+    {
+        "id": "58239d73.30c134",
+        "type": "file in",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "filename": "/home/lgyenge/datalog/jpgin/sample.jpg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 760,
+        "y": 540,
+        "wires": [
+            [
+                "f3ea19ee.f08518"
+            ]
+        ]
+    },
+    {
+        "id": "54ef025d.56fccc",
+        "type": "template",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n    \"pageSize\": \"A4\",\n    \"pageOrientation\": \"portrait\",\n    \"pageMargins\": [\n        40,\n        60,\n        40,\n        60\n    ],\n    \"info\": {\n        \"title\": \"awesome Document\",\n        \"author\": \"john doe\",\n        \"subject\": \"subject of document\",\n        \"keywords\": \"keywords for document\"\n    },\n    \"content\": [\n        \"Sample Image from file\",\n        {\n            \"image\": \"data:image/jpeg;base64,{{{payload}}}\",\n            \"width\": 200\n        },\n        \"Sample SVG\",\n        {\n            \"svg\": \"<svg width=\\\"300\\\" height=\\\"200\\\" viewBox=\\\"0 0 300 200\\\"><polygon points=\\\"100,10 40,198 190,78 10,78 160,198\\\" style=\\\"fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;stroke-linecap:round;\\\"/></svg>\",\n            \"width\": 150\n        }\n       \n    ] \n}\n",
+        "output": "json",
+        "x": 660,
+        "y": 600,
+        "wires": [
+            [
+                "bdd7feab.d9412",
+                "6860eb9cfd862e40"
+            ]
+        ]
+    },
+    {
+        "id": "57c0a23a.ab3bec",
+        "type": "file",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "filename": "/home/lgyenge/datalog/pdf-files/test.pdf",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1060,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bdd7feab.d9412",
+        "type": "pdfmake",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "outputType": "Buffer",
+        "inputProperty": "payload",
+        "options": "{}",
+        "outputProperty": "payload",
+        "x": 820,
+        "y": 600,
+        "wires": [
+            [
+                "57c0a23a.ab3bec"
+            ]
+        ]
+    },
+    {
+        "id": "f3ea19ee.f08518",
+        "type": "base64",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "action": "str",
+        "property": "payload",
+        "x": 1160,
+        "y": 540,
+        "wires": [
+            [
+                "54ef025d.56fccc",
+                "5db5bf8746916527"
+            ]
+        ]
+    },
+    {
+        "id": "40aa0652.d1bf88",
+        "type": "pdfmake",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "outputType": "Buffer",
+        "inputProperty": "payload",
+        "options": "{}",
+        "outputProperty": "payload",
+        "x": 580,
+        "y": 240,
+        "wires": [
+            [
+                "97d255cf.8bc138"
+            ]
+        ]
+    },
+    {
+        "id": "30e9a280.04a94e",
+        "type": "inject",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"content\":[\"First paragraph\",\"Another paragraph, this time a little bit longer to make sure, this line will be divided into at least two lines\"]}",
+        "payloadType": "json",
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "40aa0652.d1bf88"
+            ]
+        ]
+    },
+    {
+        "id": "97d255cf.8bc138",
+        "type": "file",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "filename": "/home/lgyenge/datalog/pdf-files/test-simple.pdf",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 860,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da72935b.7c159",
+        "type": "comment",
+        "z": "c677fb256e5bfc68",
+        "name": "Simple Example PDF",
+        "info": "This is the simplest PDF test as seen in the pdfmake examples [here](http://pdfmake.org/playground.html)",
+        "x": 460,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "5db5bf8746916527",
+        "type": "template",
+        "z": "c677fb256e5bfc68",
+        "name": "gyltemplate",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "mustache",
+        "template": "{\n    \"pageSize\": \"A4\",\n    \"pageOrientation\": \"portrait\",\n    \"pageMargins\": [\n        40,\n        60,\n        40,\n        60\n    ],\n    \"info\": {\n        \"title\": \"awesome Document\",\n        \"author\": \"john doe\",\n        \"subject\": \"subject of document\",\n        \"keywords\": \"keywords for document\"\n    },\n    \"content\": [\n        \"Sample Image from file\",\n         { \"text\": \"This is a header from GyL\", \"style\": \"header\" },\n        {\n            \"image\": \"data:image/jpeg;base64,{{{payload}}}\",\n            \"width\": 200\n        },\n        \"Sample SVG\",\n        {\n            \"svg\": \"<svg width=\\\"300\\\" height=\\\"200\\\" viewBox=\\\"0 0 300 200\\\"><polygon points=\\\"100,10 40,198 190,78 10,78 160,198\\\" style=\\\"fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;stroke-linecap:round;\\\"/></svg>\",\n            \"width\": 150\n        }\n       \n    ],\n    \"styles\": {\n    \"header\": {\n      \"fontSize\": 22,\n      \"bold\": true\n    }\n  }\n}\n\n\n\n\n",
+        "output": "json",
+        "x": 670,
+        "y": 720,
+        "wires": [
+            [
+                "be8f487a9fb42e63",
+                "9fd1ae002a8f7761"
+            ]
+        ]
+    },
+    {
+        "id": "be8f487a9fb42e63",
+        "type": "pdfmake",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "outputType": "Buffer",
+        "inputProperty": "payload",
+        "options": "{}",
+        "outputProperty": "payload",
+        "x": 890,
+        "y": 740,
+        "wires": [
+            [
+                "244de43ac9568362"
+            ]
+        ]
+    },
+    {
+        "id": "244de43ac9568362",
+        "type": "file",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "filename": "/home/lgyenge/datalog/pdf-files/gyltemplate.pdf",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1250,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9fd1ae002a8f7761",
+        "type": "debug",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "6860eb9cfd862e40",
+        "type": "debug",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "9146f8fe2dd686ce",
+        "type": "json",
+        "z": "c677fb256e5bfc68",
+        "name": "aa",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 360,
+        "y": 820,
+        "wires": [
+            [
+                "bd5b1cc20c61ba97"
+            ]
+        ]
+    },
+    {
+        "id": "8c27cb7e0a73faa1",
+        "type": "inject",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"employees\":[{\"firstName\":\"John\",\"lastName\":\"Doe\"},{\"firstName\":\"Anna\",\"lastName\":\"Smith\"},{\"firstName\":\"Peter\",\"lastName\":\"Jones\"}]}",
+        "payloadType": "json",
+        "x": 160,
+        "y": 820,
+        "wires": [
+            [
+                "1f9f68a2aaecf44b",
+                "9146f8fe2dd686ce"
+            ]
+        ]
+    },
+    {
+        "id": "1f9f68a2aaecf44b",
+        "type": "debug",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "bd5b1cc20c61ba97",
+        "type": "debug",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "344257e53e98aefc",
+        "type": "inject",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"pageSize\":\"A4\",\"pageOrientation\":\"portrait\",\"pageMargins\":[40,60,40,60],\"info\":{\"title\":\"awesome Document\",\"author\":\"john doe\",\"subject\":\"subject of document\",\"keywords\":\"keywords for document\"},\"content\":[\"Sample Image from file\",{\"image\":\"data:image/jpeg;base64,{{{payload}}}\",\"width\":200},\"Sample SVG\",{\"svg\":\"<svg width=\\\"300\\\" height=\\\"200\\\" viewBox=\\\"0 0 300 200\\\"><polygon points=\\\"100,10 40,198 190,78 10,78 160,198\\\" style=\\\"fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;stroke-linecap:round;\\\"/></svg>\",\"width\":150}]}",
+        "payloadType": "json",
+        "x": 380,
+        "y": 360,
+        "wires": [
+            [
+                "3a3609cefd2d96e5"
+            ]
+        ]
+    },
+    {
+        "id": "3a3609cefd2d96e5",
+        "type": "debug",
+        "z": "c677fb256e5bfc68",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "0097aae5e7ed99ac",
+        "type": "influxdb out",
+        "z": "fe3bbe1c28145180",
+        "influxdb": "2be7c8fd.d795c8",
+        "name": "influxOut",
+        "measurement": "test",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ns",
+        "retentionPolicyV18Flux": "",
+        "org": "Dinet",
+        "bucket": "node_red_test1",
+        "x": 810,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "a91d522b.9a077",
+        "type": "influxdb out",
+        "z": "fe3bbe1c28145180",
+        "influxdb": "5d7e54ca.019d44",
+        "name": "",
+        "measurement": "test",
+        "precision": "ms",
+        "retentionPolicy": "",
+        "database": "test",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "Dinet",
+        "bucket": "node_red_test2",
+        "x": 1390,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d2065533.409ed8",
+        "type": "influxdb batch",
+        "z": "fe3bbe1c28145180",
+        "influxdb": "2be7c8fd.d795c8",
+        "precision": "",
+        "retentionPolicy": "",
+        "name": "influxDB",
+        "database": "",
+        "precisionV18FluxV20": "s",
+        "retentionPolicyV18Flux": "",
+        "org": "Dinet",
+        "bucket": "bbraun",
+        "x": 830,
+        "y": 160,
+        "wires": []
+    }
+]
